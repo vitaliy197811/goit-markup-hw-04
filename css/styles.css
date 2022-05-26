@@ -453,7 +453,7 @@ nav {
     margin: 0;
     background-size: auto;
     background-position: center;
-    background-color: #E5E5E5;
+    background-color: #fff;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     fill: rgba(175, 177, 184, 1);    
@@ -655,11 +655,13 @@ padding: 0;
     margin-bottom: 0;
 }
 
-.work-box:hover,
-.work-box:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
-                0px 4px 4px rgba(0, 0, 0, 0.06), 
-                1px 4px 6px rgba(0, 0, 0, 0.16);    
+.link {
+    display: block;
+}
+
+.link:hover,
+.link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);    
 }
 
 .work-text {
